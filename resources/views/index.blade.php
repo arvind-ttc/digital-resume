@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arvind Suthar</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <nav id="navbar">
+        <img src="./assets/images/icon.png" id="top-image">
+        <div id="top-name">Arvind Suthar</div>
+        <div id="page-nav">
+            <ul>
+                <span class="light-bold"><li>Home</li></span>
+                <li>•</li>
+                <a href="projects" style="all: unset; cursor: pointer"><li>Projects</li></a>
+            </ul>
+        </div>
+    </nav>
+
+    <section>
+        <div id="header">
+            <span id="title">Arvind Suthar</span><br>
+            <div id="horizontal-line"></div><br>
+            <span id="para">Machine Learning, Deep Learning, and Natural Language Processing</span>
+        </div>
+
+        <div class="container bg-dark">
+            <div id="about">
+                <h1 id="heading">About Me</h1>
+                <p id="para">I am a computer science undergrad, pursuing my Bachelor’s of Technology in Computer Science. I have a passion for artificial intelligence and computer programming. This passion has given me the ability to self-learn & program for a multitude of things, including AI/ML.
+                <br><br>I am open to learning new things and getting involved with new projects that can help me learn or apply all I have learned.</p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div id="experience">
+                <h1 id="sub-h">Experience</h1>
+                <div id="para-container">
+                    <span class="light-bold">AI/ML Intern</span> @Lakebrains Technologies, Udaipur, Rajasthan, India<br>
+                    (Feb'22 - Jul'22)<br>
+                    <ul>
+                        <li>Contributed to text-based <span class="light-bold">empathy classification models</span></li>
+                        <li>Deployed the models as REST API using <span class="light-bold">AWS Lambda</span></li>
+                        <li>Created interactive <span class="light-bold">visualization tools</span> for large datasets using <span class="light-bold">Holoviz</span>, and its deployment on <span class="light-bold">AWS EC2</span> to serve user requests.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="foot-container bg-dark">
+            <span class="center-text light-bold">Get in touch at arvindsuthar198@gmail.com</span>
+        </div>
+    </section>
+</body>
+</html>
